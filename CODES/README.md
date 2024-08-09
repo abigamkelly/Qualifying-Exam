@@ -1,12 +1,12 @@
 # Map-Based-Colocation-Mining
-This github includes the code for our map-based regional colocation mining framework.  The following files are included:
-* regional_colocation_compression
+This github includes the code for Abigail Kelly's Qualifying Exam.  The following files are included:
+* regional_colocation_compression: this folder contains the code for our map-based regional colocation mining framework.
    * c_functions.cpp: c++ functions used in the regional colocation framework
    * distance_threshold_calc.ipynb: python code that estimates the optimal spatial neighborhood relationship constraint
    * regional_colocation.ipynb: python code that calls the c++ code in c_functions.cpp to perform the colocation mining
    * required_files: this folder holds the intermediate data produced by the framework
    * real_world_data: this folder contains 3 real-world data sets along with their shapefiles.  It is recommended that you use the NorthAmerica data set if you are to run the code due to its shorter run time.
-* colocation_compression
+* colocation_compression: this folder contains the code for our map-based colocation code (same code as above minus the regional part- this code is only useful for testing sythetic data sets)
    * c_functions.cpp
    * compression.ipynb
    * synthetic data: this folder contains 5 synthetic data sets varying in clumpiness.  They are titled TestCase1_#.csv where # represents the clumpiness.  For example, TestCase1_1.csv is clumpiness 1.
