@@ -4,10 +4,12 @@ This github includes the code for our map-based regional colocation mining frame
    * c_functions.cpp: c++ functions used in the regional colocation framework
    * distance_threshold_calc.ipynb: python code that estimates the optimal spatial neighborhood relationship constraint
    * regional_colocation.ipynb: python code that calls the c++ code in c_functions.cpp to perform the colocation mining
-   * required_files: folder that holds the intermediate data
+   * required_files: this folder holds the intermediate data produced by the framework
    * real_world_data: this folder contains 3 real-world data sets along with their shapefiles.  It is recommended that you use the NorthAmerica data set if you are to run the code due to its shorter run time.
 * colocation_compression
    * c_functions.cpp
+   * compression.ipynb
+   * synthetic data: this folder contains 5 synthetic data sets varying in clumpiness.  They are titled TestCase1_#.csv where # represents the clumpiness.  For example, TestCase1_1.csv is clumpiness 1.
 
 
 ### How to Configure
