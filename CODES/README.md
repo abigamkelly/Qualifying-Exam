@@ -30,12 +30,12 @@ This github includes the code for Abigail Kelly's Qualifying Exam.  The followin
 
 ### How to Compile and Run
 #### regional_colocation_compression
-1. Change your current directory to the directory containing c_functions.cpp
+1. Change your current directory to regional_colocation_compression
 2. Open distance_threshold_calculation.ipynb and run all the cells
 3. Run the following command in the terminal: **g++ -O3 -shared -o c_functions.so -fPIC c_functions.cpp**
 4. Open regional_colocation.ipynb and run all the cells
 
 #### colocation_compression
-1. Change your current directory to the directory containing c_functions.cpp
+1. Change your current directory to the colocation_compression
 2. Run the following command in the terminal: **g++ -O3 -shared -o c_functions.so -fPIC c_functions.cpp**
 3. Open compression.ipynb and run all the cells
